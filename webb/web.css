@@ -1,0 +1,251 @@
+*{margin:0;
+padding:0;
+}
+.font0{
+    display:flex;
+    text-align:center;
+}
+.font1{
+    flex:1;
+    text-align: right;
+}
+.font1 ul{
+    list-style-type:none;
+}
+/*div ul li:hover{
+    display:block;
+    position:absolute;/doesn't change the place of the previous text if we use positio:relative; then place willchange/\
+}
+*/
+div:hover{
+    display:block;
+}
+
+.font3 img{
+    width:200px;
+    height:200px;
+    margin-left:60px;
+    margin-bottom:60px;
+    margin-top:60px;
+}
+.font1 ul li{
+    display:inline-flex;
+    padding:15px;
+}
+.font1{
+    margin-right:120px;
+    margin-top:60px;
+}
+.font1 a{
+    text-decoration:none;
+    color:mediumblue;
+}
+.font4{
+    max-width:1080px;
+    display:flex;
+    text-align:center;
+    margin:auto;
+    justify-content: space-between;
+}
+.font5{
+    flex-basis: 50%;
+    margin-top:150px;
+    margin-bottom:120px;
+}
+.font5 h1{
+    font-size:30px;
+    margin-bottom:30px;
+}
+.font2{
+    background:radial-gradient(#fff,#ffd6d6);
+}
+.font7{
+    display:flex;
+    max-width:1030px;
+    margin:auto;
+}
+.font8{
+    margin-top:120px;
+    margin-bottom:60px;
+    text-align:center;
+    font-size:30px;
+}
+.font6{
+    flex-basis:25%;
+    margin:auto;
+    margin-right:30px;
+    transition:transform 2s;
+}
+.font9,font10{
+    margin-left:20px;
+}
+.font11{
+    margin-top:60px;
+}
+.font12{
+    margin-top:60px;
+    margin-bottom:90px;
+    background:radial-gradient(#fff,#ffd6d6);
+    border-radius:30px;
+}
+.font12 h1{
+    padding-top:30px;
+    text-align:center;
+    color:orangered;
+    margin-bottom:60px;
+}
+.font12 p{
+    font-size:18px;
+    line-height:25px;
+    text-indent:30px;
+    margin-bottom:50px;
+    
+}
+.font13{
+    text-align:center;
+    font-size:18px;
+    padding-bottom: 60px;
+}
+.font14{
+    display:flex;
+    max-width:1030px;
+    margin:auto;
+}
+.font15{
+    flex:33%;
+    background-color:coral;
+    margin-right:10px;
+    text-align:center;
+    border-radius:10px;
+}
+.font15 img{
+    width:100%;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    
+}
+.font15 p{
+    text-align:center;
+}
+.font17{
+    display:flex;
+    max-width:1030px;
+    margin:auto;
+    margin-top:60px;
+}
+.font16{
+    flex:25%;
+    margin-left:30px;
+    margin-bottom:60px;
+    margin-top:30px;
+    
+}
+.font16 img{
+    width:100px;
+}
+.font18 hr{
+    width:80%;
+    height:5px;
+    align-items:center;
+    margin:auto;
+    background:black;
+}
+.font18 p{
+    text-align:center;
+    margin-bottom:30px;
+    padding-bottom:30px;
+}
+.font19{
+    background-color:antiquewhite;
+    border-radius:40px;
+}
+nav .fa{
+    display:none;
+}
+
+@media(max-width:700px){
+    .font1 ul li{
+        display:block;
+    }
+    .font1{
+        background:yellow;
+        width:200px;
+        height:100vh;
+        margin-right: 0;
+        margin-top: 0;
+        right:-200px;
+        text-align:left;
+        position:absolute;
+        transition:1s;
+        
+    }
+    nav .fa{
+        display:block;
+    }
+    .font3 img{
+        margin-top:90px;
+        width:100px;
+        height:100px;
+    }
+    .font5 img{
+        width:100px;
+        height:100px;
+        margin-top:60px;
+    }
+    .font5{
+        margin-top:100px;
+    }
+    .font2{
+        border-radius:40px;
+    }
+    .font8{
+        margin-top:60px;
+    }
+    .font5 p{
+        margin-left:20px;
+        margin-top:10px;
+    }
+    .font7{
+        display:block;
+    }
+    .font20{
+        padding-left:70px;
+        margin-bottom:30px;
+    }
+    .font21{
+        margin-left:0px;
+    }
+    .font22{
+        margin-left:50px;
+    }
+    .font20 img{
+        width:150px;
+        height:80px;
+    }
+    .font23{
+        margin-left:20px;
+    }
+    .font12 p{
+        margin-left:20px;
+    }
+    .font14{
+        display:block;
+    }
+    .font15{
+        margin-bottom:20px;
+    }
+    .font17{
+        display:block;
+        margin-left:30px;
+    }
+  }
+.font5:hover img,.font3:hover{
+    transform:translateX(10PX);
+}
+.font6:hover img{
+    transform:translateY(-10px);
+}
+.font15:hover{
+    transform:translateY(-10px);
+}
